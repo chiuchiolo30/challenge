@@ -54,13 +54,6 @@ Esta es una aplicación Flutter que muestra un listado de posts. Al tocar uno de
 - Listar comentarios de un post.
 - Darle like a un post.
 
-## Fuentes de Datos
-
-Los posts y comentarios se obtienen utilizando los siguientes endpoints:
-
-- **Posts**: `https://jsonplaceholder.typicode.com/posts`
-- **Comments**: `https://jsonplaceholder.typicode.com/comments?postId=1` (cambiando el `postId` según sea necesario)
-
 ## Dependencias
 
 El proyecto utiliza las siguientes dependencias:
@@ -75,6 +68,15 @@ El proyecto utiliza las siguientes dependencias:
 - `get_it`: Para la inyección de dependencias.
 - `mockito`: Para la creación de mocks en pruebas unitarias.
 
+## Fuentes de Datos
+
+Los posts y comentarios se obtienen utilizando los siguientes endpoints:
+
+- **Posts**: `https://jsonplaceholder.typicode.com/posts`
+- **Comments**: `https://jsonplaceholder.typicode.com/comments?postId=1` (cambiando el `postId` según sea necesario)
+
+
+
 ## Ejecución de Pruebas Unitarias
 
 Para ejecutar las pruebas unitarias, utiliza el siguiente comando:
@@ -85,19 +87,6 @@ flutter test
 
 Este comando ejecutará todas las pruebas definidas en el proyecto y mostrará los resultados en la terminal.
 
-## Funcionalidades
-
-- Listar posts.
-- Mostrar detalles de un post.
-- Listar comentarios de un post.
-- Darle like a un post.
-
-## Fuentes de Datos
-
-Los posts y comentarios se obtienen utilizando los siguientes endpoints:
-
-- **Posts**: `https://jsonplaceholder.typicode.com/posts`
-- **Comments**: `https://jsonplaceholder.typicode.com/comments?postId=1` (cambiando el `postId` según sea necesario)
 ## Licencia
 
 Este proyecto está licenciado bajo la Licencia MIT. Para más detalles, consulta el archivo [LICENSE](LICENSE).
